@@ -1,0 +1,10 @@
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\CMAKEFILES\657BF6434C28BCD542FB52A5DFD6EA32\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/эксперементы/disassembler -BC:/эксперементы/disassembler/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/эксперементы/disassembler/build/DISASSEMBLER.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
