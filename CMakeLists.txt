@@ -12,6 +12,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(disassembler
 src/main.cpp
 src/pe/pe_image.cpp
+src/x86/decoder.cpp
 )
 
 target_include_directories(disassembler

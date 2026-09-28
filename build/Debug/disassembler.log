@@ -1,0 +1,213 @@
+DISASSEMBLER v0.1.0
+PE32 x86 loaded
+Image base: 0x400000
+Entry point: 0x5B3E87
+Image size: 0x789000
+Sections: 4
+  .text RVA=0x1000 VA=0x401000 raw=0x1000 size=0x1CF000
+  .rdata RVA=0x1D0000 VA=0x5D0000 raw=0x1D0000 size=0x1F000
+  .data RVA=0x1EF000 VA=0x5EF000 raw=0x1EF000 size=0x74000
+  .rsrc RVA=0x786000 VA=0xB86000 raw=0x263000 size=0x2000
+Entry file offset: 0x1B3E87
+
+Disassembly (entry point, up to 200 instructions):
+005B3E87  55                       push ebp
+005B3E88  8B EC                    mov ebp, esp
+005B3E8A  6A FF                    push 0xFF
+005B3E8C  68 A8 DB 5D 00           push 0x5DDBA8
+005B3E91  68 A0 0B 5B 00           push 0x5B0BA0
+005B3E96  64 A1 00 00 00 00        mov eax, fs:[0x0]
+005B3E9C  50                       push eax
+005B3E9D  64 89 25 00 00 00 00     mov fs:[0x0], esp
+005B3EA4  83 EC 58                 sub esp, 0x58
+005B3EA7  53                       push ebx
+005B3EA8  56                       push esi
+005B3EA9  57                       push edi
+005B3EAA  89 65 E8                 mov [ebp-0x18], esp
+005B3EAD  FF 15 D8 00 5D 00        call [0x5D00D8]
+005B3EB3  33 D2                    xor edx, edx
+005B3EB5  8A D4                    mov dl, ah
+005B3EB7  89 15 E4 3B B8 00        mov [0xB83BE4], edx
+005B3EBD  8B C8                    mov ecx, eax
+005B3EBF  81 E1 FF 00 00 00        and ecx, 0xFF
+005B3EC5  89 0D E0 3B B8 00        mov [0xB83BE0], ecx
+005B3ECB  C1 E1 08                 shl ecx, 0x8
+005B3ECE  03 CA                    add ecx, edx
+005B3ED0  89 0D DC 3B B8 00        mov [0xB83BDC], ecx
+005B3ED6  C1 E8 10                 shr eax, 0x10
+005B3ED9  A3 D8 3B B8 00           mov [0xB83BD8], eax
+005B3EDE  33 F6                    xor esi, esi
+005B3EE0  56                       push esi
+005B3EE1  E8 07 20 00 00           call 0x5B5EED
+005B3EE6  59                       pop ecx
+005B3EE7  85 C0                    test eax, eax
+005B3EE9  75 08                    jne 0x5B3EF3
+005B3EEB  6A 1C                    push 0x1C
+005B3EED  E8 B0 00 00 00           call 0x5B3FA2
+005B3EF2  59                       pop ecx
+005B3EF3  89 75 FC                 mov [ebp-0x4], esi
+005B3EF6  E8 19 1C 00 00           call 0x5B5B14
+005B3EFB  FF 15 C4 00 5D 00        call [0x5D00C4]
+005B3F01  A3 B4 56 B8 00           mov [0xB856B4], eax
+005B3F06  E8 A7 80 00 00           call 0x5BBFB2
+005B3F0B  A3 C0 3B B8 00           mov [0xB83BC0], eax
+005B3F10  E8 50 7E 00 00           call 0x5BBD65
+005B3F15  E8 92 7D 00 00           call 0x5BBCAC
+005B3F1A  E8 FD 04 00 00           call 0x5B441C
+005B3F1F  89 75 D0                 mov [ebp-0x30], esi
+005B3F22  8D                       db 0x8D
+005B3F23  45                       db 0x45
+005B3F24  A4                       movsb 
+005B3F25  50                       push eax
+005B3F26  FF 15 D0 00 5D 00        call [0x5D00D0]
+005B3F2C  E8 23 7D 00 00           call 0x5BBC54
+005B3F31  89 45 9C                 mov [ebp-0x64], eax
+005B3F34  F6 45 D0 01              test [ebp-0x30], 0x1
+005B3F38  74 06                    je 0x5B3F40
+005B3F3A  0F B7 45 D4              movzx edx, [ebp-0x2C]
+005B3F3E  EB 03                    jmp 0x5B3F43
+005B3F40  6A 0A                    push 0xA
+005B3F42  58                       pop eax
+005B3F43  50                       push eax
+005B3F44  FF 75 9C                 push [ebp-0x64]
+005B3F47  56                       push esi
+005B3F48  56                       push esi
+005B3F49  FF 15 C8 01 5D 00        call [0x5D01C8]
+005B3F4F  50                       push eax
+005B3F50  E8 7B 34 EF FF           call 0x4A73D0
+005B3F55  89 45 A0                 mov [ebp-0x60], eax
+005B3F58  50                       push eax
+005B3F59  E8 EB 04 00 00           call 0x5B4449
+005B3F5E  8B 45 EC                 mov eax, [ebp-0x14]
+005B3F61  8B 08                    mov ecx, [eax]
+005B3F63  8B 09                    mov ecx, [ecx]
+005B3F65  89 4D 98                 mov [ebp-0x68], ecx
+005B3F68  50                       push eax
+005B3F69  51                       push ecx
+005B3F6A  E8 61 7B 00 00           call 0x5BBAD0
+005B3F6F  59                       pop ecx
+005B3F70  59                       pop ecx
+005B3F71  C3                       ret 
+005B3F72  8B 65 E8                 mov esp, [ebp-0x18]
+005B3F75  FF 75 98                 push [ebp-0x68]
+005B3F78  E8 DD 04 00 00           call 0x5B445A
+005B3F7D  83 3D C8 3B B8 00 01     cmp [0xB83BC8], 0x1
+005B3F84  75 05                    jne 0x5B3F8B
+005B3F86  E8 45 33 00 00           call 0x5B72D0
+005B3F8B  FF 74 24 04              push [esp+0x4]
+005B3F8F  E8 75 33 00 00           call 0x5B7309
+005B3F94  68 FF 00 00 00           push 0xFF
+005B3F99  FF 15 BC F0 65 00        call [0x65F0BC]
+005B3F9F  59                       pop ecx
+005B3FA0  59                       pop ecx
+005B3FA1  C3                       ret 
+005B3FA2  83 3D C8 3B B8 00 01     cmp [0xB83BC8], 0x1
+005B3FA9  75 05                    jne 0x5B3FB0
+005B3FAB  E8 20 33 00 00           call 0x5B72D0
+005B3FB0  FF 74 24 04              push [esp+0x4]
+005B3FB4  E8 50 33 00 00           call 0x5B7309
+005B3FB9  59                       pop ecx
+005B3FBA  68 FF 00 00 00           push 0xFF
+005B3FBF  FF 15 DC 00 5D 00        call [0x5D00DC]
+005B3FC5  C3                       ret 
+005B3FC6  55                       push ebp
+005B3FC7  8B EC                    mov ebp, esp
+005B3FC9  56                       push esi
+005B3FCA  8B 75 08                 mov esi, [ebp+0x8]
+005B3FCD  0F AF 75 0C              imul esi, [ebp+0xC]
+005B3FD1  83 FE E0                 cmp esi, 0xFFFFFFE0
+005B3FD4  57                       push edi
+005B3FD5  89 75 08                 mov [ebp+0x8], esi
+005B3FD8  77 0D                    ja 0x5B3FE7
+005B3FDA  85 F6                    test esi, esi
+005B3FDC  75 03                    jne 0x5B3FE1
+005B3FDE  6A 01                    push 0x1
+005B3FE0  5E                       pop esi
+005B3FE1  83 C6 0F                 add esi, 0xF
+005B3FE4  83 E6 F0                 and esi, 0xFFFFFFF0
+005B3FE7  33 FF                    xor edi, edi
+005B3FE9  83 FE E0                 cmp esi, 0xFFFFFFE0
+005B3FEC  77 58                    ja 0x5B4046
+005B3FEE  A1 68 45 B8 00           mov eax, [0xB84568]
+005B3FF3  83 F8 03                 cmp eax, 0x3
+005B3FF6  75 1A                    jne 0x5B4012
+005B3FF8  8B 45 08                 mov eax, [ebp+0x8]
+005B3FFB  3B 05 60 45 B8 00        cmp eax, [0xB84560]
+005B4001  77 2E                    ja 0x5B4031
+005B4003  50                       push eax
+005B4004  E8 DD 22 00 00           call 0x5B62E6
+005B4009  8B F8                    mov edi, eax
+005B400B  59                       pop ecx
+005B400C  85 FF                    test edi, edi
+005B400E  75 4C                    jne 0x5B405C
+005B4010  EB 1F                    jmp 0x5B4031
+005B4012  83 F8 02                 cmp eax, 0x2
+005B4015  75 1A                    jne 0x5B4031
+005B4017  3B 35 94 13 66 00        cmp esi, [0x661394]
+005B401D  77 12                    ja 0x5B4031
+005B401F  8B C6                    mov eax, esi
+005B4021  C1 E8 04                 shr eax, 0x4
+005B4024  50                       push eax
+005B4025  E8 5F 2D 00 00           call 0x5B6D89
+005B402A  8B F8                    mov edi, eax
+005B402C  59                       pop ecx
+005B402D  85 FF                    test edi, edi
+005B402F  75 3F                    jne 0x5B4070
+005B4031  56                       push esi
+005B4032  6A 08                    push 0x8
+005B4034  FF 35 64 45 B8 00        push [0xB84564]
+005B403A  FF 15 E0 00 5D 00        call [0x5D00E0]
+005B4040  8B F8                    mov edi, eax
+005B4042  85 FF                    test edi, edi
+005B4044  75 24                    jne 0x5B406A
+005B4046  83 3D 48 3C B8 00 00     cmp [0xB83C48], 0x0
+005B404D  74 1B                    je 0x5B406A
+005B404F  56                       push esi
+005B4050  E8 F4 3B 00 00           call 0x5B7C49
+005B4055  85 C0                    test eax, eax
+005B4057  59                       pop ecx
+005B4058  74 19                    je 0x5B4073
+005B405A  EB 8B                    jmp 0x5B3FE7
+005B405C  FF 75 08                 push [ebp+0x8]
+005B405F  6A 00                    push 0x0
+005B4061  57                       push edi
+005B4062  E8 89 80 00 00           call 0x5BC0F0
+005B4067  83 C4 0C                 add esp, 0xC
+005B406A  8B C7                    mov eax, edi
+005B406C  5F                       pop edi
+005B406D  5E                       pop esi
+005B406E  5D                       pop ebp
+005B406F  C3                       ret 
+005B4070  56                       push esi
+005B4071  EB EC                    jmp 0x5B405F
+005B4073  33 C0                    xor eax, eax
+005B4075  EB F5                    jmp 0x5B406C
+005B4077  55                       push ebp
+005B4078  8B EC                    mov ebp, esp
+005B407A  8B 45 0E                 mov eax, [ebp+0xE]
+005B407D  B9 F0 7F 00 00           mov ecx, 0x7FF0
+005B4082  8B D0                    mov edx, eax
+005B4084  23                       db 0x23
+005B4085  D1 66 3B                 shl [esi+0x3B], 1
+005B4088  D1 75 2C                 sal [ebp+0x2C], 1
+005B408B  DD                       db 0xDD
+005B408C  45                       db 0x45
+005B408D  08                       db 0x8
+005B408E  51                       push ecx
+005B408F  51                       push ecx
+005B4090  DD                       db 0xDD
+005B4091  1C                       db 0x1C
+005B4092  24                       db 0x24
+005B4093  E8 C7 63 00 00           call 0x5BA45F
+005B4098  59                       pop ecx
+005B4099  48                       db 0x48
+005B409A  59                       pop ecx
+005B409B  74 13                    je 0x5B40B0
+005B409D  48                       db 0x48
+005B409E  74 0C                    je 0x5B40AC
+005B40A0  48                       db 0x48
+005B40A1  74 05                    je 0x5B40A8
+005B40A3  6A 01                    push 0x1
+005B40A5  58                       pop eax
+005B40A6  5D                       pop ebp
+005B40A7  C3                       ret 

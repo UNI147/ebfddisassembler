@@ -1,2 +1,3 @@
 C:\эксперементы\disassembler\src\main.cpp;C:\эксперементы\disassembler\build\disassembler.dir\Debug\main.obj
 C:\эксперементы\disassembler\src\pe\pe_image.cpp;C:\эксперементы\disassembler\build\disassembler.dir\Debug\pe_image.obj
+C:\эксперементы\disassembler\src\x86\decoder.cpp;C:\эксперементы\disassembler\build\disassembler.dir\Debug\decoder.obj
