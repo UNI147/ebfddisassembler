@@ -1,0 +1,3 @@
+C:/эксперементы/disassembler/build/_deps/zydis-subbuild/CMakeFiles/zydis-populate.dir
+C:/эксперементы/disassembler/build/_deps/zydis-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/эксперементы/disassembler/build/_deps/zydis-subbuild/CMakeFiles/ZERO_CHECK.dir

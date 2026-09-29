@@ -1,0 +1,150 @@
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/tmp/zydis-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\эксперементы\disassembler\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/tmp/zydis-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-UPDATE.RULE
+setlocal
+cd C:\эксперементы\disassembler\build\_deps\zydis-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/tmp/zydis-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\эксперементы\disassembler\build\_deps\zydis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-BUILD.RULE
+setlocal
+cd C:\эксперементы\disassembler\build\_deps\zydis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-INSTALL.RULE
+setlocal
+cd C:\эксперементы\disassembler\build\_deps\zydis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\1C08CF5C455324E3C4BB738225DB7C36\ZYDIS-POPULATE-TEST.RULE
+setlocal
+cd C:\эксперементы\disassembler\build\_deps\zydis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\F4682B81ACE318C6A9C4B0DAAC706E0A\ZYDIS-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/эксперементы/disassembler/build/_deps/zydis-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/CMakeFiles/Debug/zydis-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate-prefix/src/zydis-populate-stamp/Debug/zydis-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\F2E4DE4B4D24877275092C204C9E6A6C\ZYDIS-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/эксперементы/disassembler/build/_deps/zydis-subbuild -BC:/эксперементы/disassembler/build/_deps/zydis-subbuild --check-stamp-file C:/эксперементы/disassembler/build/_deps/zydis-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

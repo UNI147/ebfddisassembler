@@ -1,0 +1,756 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Debug-b5e0e0888d29025469e1.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/zydis-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build-Debug-693823c2236ec1a60f02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/zydis-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/zydis-build/zycore",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build.zycore-Debug-9687bb417d30bb6ab410.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/zydis-src/dependencies/zycore",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DISASSEMBLER",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Zydis",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Zycore",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-c1909b199841fed910b4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-ALL_BUILD-Debug-accfcd5e55b20845e67f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-ALL_BUILD-Debug-d3ba2695e084768fb42f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-62e466f5bef855b51da2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Zycore::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-Zycore-Debug-7056652b8b40675adeb1.json",
+					"name" : "Zycore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Zydis::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-Zydis-Debug-5562160107465bd90448.json",
+					"name" : "Zydis",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "disassembler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disassembler-Debug-f25cd906abad207c1f9a.json",
+					"name" : "disassembler",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Release-b5e0e0888d29025469e1.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/zydis-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build-Release-d54ccf4c9259d7b4d883.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/zydis-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/zydis-build/zycore",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build.zycore-Release-554459abe94935bfec40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/zydis-src/dependencies/zycore",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DISASSEMBLER",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Zydis",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Zycore",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-c1909b199841fed910b4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-ALL_BUILD-Release-accfcd5e55b20845e67f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-ALL_BUILD-Release-d3ba2695e084768fb42f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-62e466f5bef855b51da2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Zycore::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-Zycore-Release-3a05542f623ef4c043d0.json",
+					"name" : "Zycore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Zydis::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-Zydis-Release-d1fc60794886b4ffd063.json",
+					"name" : "Zydis",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "disassembler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disassembler-Release-e3c8a06be628743690ca.json",
+					"name" : "disassembler",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-MinSizeRel-b5e0e0888d29025469e1.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/zydis-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build-MinSizeRel-7d61333c2f13e0a6ac89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/zydis-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/zydis-build/zycore",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build.zycore-MinSizeRel-901166c66e241e4cfb2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/zydis-src/dependencies/zycore",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DISASSEMBLER",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Zydis",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Zycore",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c1909b199841fed910b4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-accfcd5e55b20845e67f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d3ba2695e084768fb42f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-62e466f5bef855b51da2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Zycore::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-Zycore-MinSizeRel-0c2a8849e445aae3e5f7.json",
+					"name" : "Zycore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Zydis::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-Zydis-MinSizeRel-64c4ece60fceaf759f17.json",
+					"name" : "Zydis",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "disassembler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disassembler-MinSizeRel-999f46c9268bf46ca275.json",
+					"name" : "disassembler",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-RelWithDebInfo-b5e0e0888d29025469e1.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/zydis-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build-RelWithDebInfo-7b26d3be6a33fb28537a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/zydis-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/zydis-build/zycore",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zydis-build.zycore-RelWithDebInfo-4470d1fe1a634f10fa6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/zydis-src/dependencies/zycore",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DISASSEMBLER",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Zydis",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Zycore",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c1909b199841fed910b4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-accfcd5e55b20845e67f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d3ba2695e084768fb42f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-62e466f5bef855b51da2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Zycore::@3b6f65a47b8aaae0f406",
+					"jsonFile" : "target-Zycore-RelWithDebInfo-8ed1f41844fecd6a9998.json",
+					"name" : "Zycore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Zydis::@de1ff595a9a26ff473a0",
+					"jsonFile" : "target-Zydis-RelWithDebInfo-ec6623b6194583107f20.json",
+					"name" : "Zydis",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "disassembler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disassembler-RelWithDebInfo-fa4d47b8f06fe71dc092.json",
+					"name" : "disassembler",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build",
+		"source" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

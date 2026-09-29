@@ -1,0 +1,111 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 209,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 222,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zycore",
+			"paths" : 
+			[
+				"build/_deps/zydis-src/dependencies/zycore/cmake/zyan-functions.cmake",
+				"build/_deps/zydis-build/zycore/zycore-config.cmake",
+				"build/_deps/zydis-build/zycore/zycore-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/zydis-build/zycore/RelWithDebInfo/Zycore.lib"
+			],
+			"targetId" : "Zycore::@3b6f65a47b8aaae0f406",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zycore",
+			"exportName" : "zycore-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Zycore::@3b6f65a47b8aaae0f406",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"_deps/zydis-build/zycore/CMakeFiles/Export/be8fb0d055ecad19586b2bae767d49d8/zycore-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "build/_deps/zydis-src/dependencies/zycore/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/zydis-build/zycore",
+		"source" : "build/_deps/zydis-src/dependencies/zycore"
+	}
+}

@@ -1,0 +1,10 @@
+^C:\ЭКСПЕРЕМЕНТЫ\DISASSEMBLER\BUILD\_DEPS\ZYDIS-SUBBUILD\CMAKEFILES\F2E4DE4B4D24877275092C204C9E6A6C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/эксперементы/disassembler/build/_deps/zydis-subbuild -BC:/эксперементы/disassembler/build/_deps/zydis-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/эксперементы/disassembler/build/_deps/zydis-subbuild/zydis-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

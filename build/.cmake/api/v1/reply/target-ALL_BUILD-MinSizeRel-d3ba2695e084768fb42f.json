@@ -1,0 +1,47 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Zycore::@3b6f65a47b8aaae0f406"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@3b6f65a47b8aaae0f406",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Zycore::@3b6f65a47b8aaae0f406"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/zydis-build/zycore",
+		"source" : "build/_deps/zydis-src/dependencies/zycore"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

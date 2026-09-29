@@ -71,6 +71,12 @@ C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler
 C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/CompilerId/VS-10.vcxproj.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake

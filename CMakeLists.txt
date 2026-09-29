@@ -1,28 +1,27 @@
 cmake_minimum_required(VERSION 3.16)
-
-project(DISASSEMBLER
-VERSION 0.1.0
-LANGUAGES CXX
-)
-
+project(DISASSEMBLER VERSION 0.4.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
-
-add_executable(disassembler
-src/main.cpp
-src/pe/pe_image.cpp
-src/x86/decoder.cpp
-)
-
-target_include_directories(disassembler
-PRIVATE
-${PROJECT_SOURCE_DIR}/include
-${PROJECT_SOURCE_DIR}/include/pe
-)
-
-if(MSVC)
-target_compile_options(disassembler PRIVATE /W4 /permissive-)
+include(FetchContent)
+set(ZYDIS_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(ZYDIS_BUILD_TOOLS OFF CACHE BOOL "" FORCE)
+set(ZYDIS_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+FetchContent_Declare(Zydis GIT_REPOSITORY https://github.com/zyantific/zydis.git GIT_TAG v4.1.1 GIT_SHALLOW TRUE)
+FetchContent_MakeAvailable(Zydis)
+add_executable(disassembler src/main.cpp src/pe/pe_image.cpp src/x86/decoder.cpp)
+target_include_directories(disassembler PRIVATE ${PROJECT_SOURCE_DIR}/include ${PROJECT_SOURCE_DIR}/include/pe)
+# Zydis may expose either a namespaced alias or the plain target,
+# depending on how it is added to the build.
+if(TARGET Zydis::Zydis)
+    target_link_libraries(disassembler PRIVATE Zydis::Zydis)
+elseif(TARGET Zydis)
+    target_link_libraries(disassembler PRIVATE Zydis)
 else()
-target_compile_options(disassembler PRIVATE -Wall -Wextra -Wpedantic)
+    message(FATAL_ERROR "Zydis was fetched, but neither Zydis::Zydis nor Zydis target exists")
+endif()
+if(MSVC)
+ target_compile_options(disassembler PRIVATE /W4 /permissive-)
+else()
+ target_compile_options(disassembler PRIVATE -Wall -Wextra -Wpedantic)
 endif()

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\1c08cf5c455324e3c4bb738225db7c36\zydis-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\f4682b81ace318c6a9c4b0daac706e0a\zydis-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\f2e4de4b4d24877275092c204c9e6a6c\zydis-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\zydis-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A721A6DD-00ED-3EEA-80F4-50D41E2AB1CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

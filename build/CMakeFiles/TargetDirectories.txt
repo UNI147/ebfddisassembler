@@ -1,3 +1,10 @@
 C:/эксперементы/disassembler/build/CMakeFiles/disassembler.dir
+C:/эксперементы/disassembler/build/CMakeFiles/INSTALL.dir
 C:/эксперементы/disassembler/build/CMakeFiles/ALL_BUILD.dir
 C:/эксперементы/disassembler/build/CMakeFiles/ZERO_CHECK.dir
+C:/эксперементы/disassembler/build/_deps/zydis-build/CMakeFiles/Zydis.dir
+C:/эксперементы/disassembler/build/_deps/zydis-build/CMakeFiles/INSTALL.dir
+C:/эксперементы/disassembler/build/_deps/zydis-build/CMakeFiles/ALL_BUILD.dir
+C:/эксперементы/disassembler/build/_deps/zydis-build/zycore/CMakeFiles/Zycore.dir
+C:/эксперементы/disassembler/build/_deps/zydis-build/zycore/CMakeFiles/INSTALL.dir
+C:/эксперементы/disassembler/build/_deps/zydis-build/zycore/CMakeFiles/ALL_BUILD.dir

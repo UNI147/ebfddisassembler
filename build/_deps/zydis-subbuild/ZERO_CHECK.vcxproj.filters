@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\эксперементы\disassembler\build\_deps\zydis-subbuild\CMakeFiles\f2e4de4b4d24877275092c204c9e6a6c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A721A6DD-00ED-3EEA-80F4-50D41E2AB1CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

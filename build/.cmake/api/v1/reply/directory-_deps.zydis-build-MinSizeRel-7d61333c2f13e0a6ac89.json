@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/zydis-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 286,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 297,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 300,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zydis",
+			"paths" : 
+			[
+				"build/_deps/zydis-build/zydis-config.cmake",
+				"build/_deps/zydis-build/zydis-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/zydis-build/MinSizeRel/Zydis.lib"
+			],
+			"targetId" : "Zydis::@de1ff595a9a26ff473a0",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zydis",
+			"exportName" : "zydis-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Zydis::@de1ff595a9a26ff473a0",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"_deps/zydis-build/CMakeFiles/Export/c520ad4c175752a05a118ad881557759/zydis-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "build/_deps/zydis-src/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/zydis-build",
+		"source" : "build/_deps/zydis-src"
+	}
+}

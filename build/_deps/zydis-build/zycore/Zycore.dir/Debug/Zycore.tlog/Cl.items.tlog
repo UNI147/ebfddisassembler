@@ -1,0 +1,13 @@
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\API\Memory.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Memory.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\API\Process.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Process.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\API\Synchronization.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Synchronization.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\API\Terminal.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Terminal.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\API\Thread.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Thread.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\Allocator.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Allocator.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\ArgParse.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\ArgParse.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\Bitset.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Bitset.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\Format.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Format.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\List.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\List.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\String.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\String.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\Vector.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Vector.obj
+C:\эксперементы\disassembler\build\_deps\zydis-src\dependencies\zycore\src\Zycore.c;C:\эксперементы\disassembler\build\_deps\zydis-build\zycore\Zycore.dir\Debug\Zycore.obj

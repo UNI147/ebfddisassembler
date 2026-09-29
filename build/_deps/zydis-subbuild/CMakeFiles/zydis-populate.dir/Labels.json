@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/zydis-populate"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/f2e4de4b4d24877275092c204c9e6a6c/zydis-populate.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/f4682b81ace318c6a9c4b0daac706e0a/zydis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-build.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-download.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-install.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-test.rule"
+		},
+		{
+			"file" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-subbuild/CMakeFiles/1c08cf5c455324e3c4bb738225db7c36/zydis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zydis-populate"
+		],
+		"name" : "zydis-populate"
+	}
+}

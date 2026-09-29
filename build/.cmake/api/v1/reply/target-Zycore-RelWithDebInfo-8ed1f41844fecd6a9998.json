@@ -1,0 +1,424 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/zydis-build/zycore/RelWithDebInfo/Zycore.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_compile_options",
+			"zyan_set_common_flags",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt",
+			"build/_deps/zydis-src/dependencies/zycore/cmake/zyan-functions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /O2 /Ob1 /DNDEBUG -MD"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4201"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ZYCORE_STATIC_BUILD"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-src/dependencies/zycore/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-build/zycore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/\u044d\u043a\u0441\u043f\u0435\u0440\u0435\u043c\u0435\u043d\u0442\u044b/disassembler/build/_deps/zydis-src/dependencies/zycore/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Zycore::@3b6f65a47b8aaae0f406",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/DISASSEMBLER"
+		}
+	},
+	"name" : "Zycore",
+	"nameOnDisk" : "Zycore.lib",
+	"paths" : 
+	{
+		"build" : "_deps/zydis-build/zycore",
+		"source" : "build/_deps/zydis-src/dependencies/zycore"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/API/Memory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/API/Process.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/API/Synchronization.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/API/Terminal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/API/Thread.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Allocator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/ArgParse.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Atomic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Bitset.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Comparison.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Defines.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Format.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/LibC.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/List.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Object.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/String.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Vector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Zycore.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Internal/AtomicGNU.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/include/Zycore/Internal/AtomicMSVC.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/API/Memory.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/API/Process.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/API/Synchronization.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/API/Terminal.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/API/Thread.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/Allocator.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/ArgParse.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/Bitset.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/Format.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/List.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/String.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/Vector.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/zydis-src/dependencies/zycore/src/Zycore.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
